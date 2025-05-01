@@ -37,16 +37,3 @@ export const deleteContact = createAsyncThunk(
     }
   }
 );
-
-// export const fetchContacts = createAsyncThunk(
-//   'contacts/fetchContacts',
-//   async (_, { rejectWithValue }) => {
-//     try {
-//       const res = await axios.get('/contacts');
-//       console.log(res.data);
-//       return res.data;
-//     } catch (e) {
-//       return rejectWithValue(e.message);
-//     }
-//   }
-// );
